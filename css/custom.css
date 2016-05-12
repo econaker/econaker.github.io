@@ -1,0 +1,301 @@
+/*
+ * Minify this file with YUI Compressor:
+ * java -jar yuicompressor-2.4.7.jar -v -o 'custom-min.js' custom.css
+ */
+
+.page-header {
+    padding-bottom: 1px;
+    margin: 5px 0 7px;
+    border-bottom: 0px solid #eeeeee;
+}
+
+.header-font {
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-inner {
+    background-color: #003145;
+    background-image: -moz-linear-gradient(top, #8996a0, #003145);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#8996a0), to(#003145));
+    background-image: -webkit-linear-gradient(top, #8996a0, #003145);
+    background-image: -o-linear-gradient(top, #8996a0, #003145);
+    background-image: linear-gradient(to bottom, #8996a0, #003145);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff8996a0', endColorstr = '#ff003145', GradientType = 0);
+    border-color: #ffffff;
+}
+
+/* Colour of selected navbar button */
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+    color: #ffffff; /* button text */
+    /*background-color: #8996a0;*/
+    background-color: #ee7600; /* button color */
+}
+
+/* Hyperlink highlighting */
+.btn-link {
+    border-color: transparent;
+    cursor: pointer;
+    /*color: #0088cc;*/
+    color: #ee7600;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+a {
+    /*color: #0088cc;*/
+    /*color: #ee7600;*/
+    color: #005580;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ee7600; /*#005580;*/
+    text-decoration: underline;
+}
+
+/*
+.navbar-inverse .btn-navbar { */
+/* Collapsed navbar button colours */
+.navbar-inverse .nav-collapse .nav > li > a:hover,
+.navbar-inverse .nav-collapse .dropdown-menu a:hover {
+    color: #ffffff; /* button text */
+    background-color: #003145;
+}
+
+/* Collapsed navbar button text colours */
+.navbar-inverse .nav-collapse .nav > li > a,
+.navbar-inverse .nav-collapse .dropdown-menu a {
+    color: #ffffff;
+}
+
+/* Button text in collapsed Nav Bar colour */
+.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
+    color: rgb(255, 255, 255);
+}
+
+/* Title in collapsed Nav Bar colour */
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-inverse .btn-navbar {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ee7600;
+    background-image: -moz-linear-gradient(top, #ee7600, #ee7600);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee7600), to(#ee7600));
+    background-image: -webkit-linear-gradient(top, #ee7600, #ee7600);
+    background-image: -o-linear-gradient(top, #ee7600, #ee7600);
+    background-image: linear-gradient(to bottom, #ee7600, #ee7600);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffee7600', endColorstr = '#ffee7600', GradientType = 0);
+    border-color: #ee7600 #ee7600 #000000;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #ee7600;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.navbar-inverse .btn-navbar:hover,
+.navbar-inverse .btn-navbar:active,
+.navbar-inverse .btn-navbar.active,
+.navbar-inverse .btn-navbar.disabled,
+.navbar-inverse .btn-navbar[disabled] {
+    color: #ffffff;
+    background-color: #ee6000;
+    *background-color: #ffffff;
+}
+
+.hero-unit {
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    color: inherit;
+    background-color: #eeeeee;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.hero-unit h1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: 1;
+    color: inherit;
+    letter-spacing: -1px;
+}
+
+.hero-unit li {
+    line-height: 30px;
+}
+
+.accordion-group {
+    border-radius: 10px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+------------------------------------------------- */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: relative;
+    z-index: 10;
+    margin-top: 5px;
+    margin-bottom: 20px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+    padding: 15px 20px;
+    /*padding: 10px 15px;*/
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*horizontal rule above footer*/
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 0;
+    border-top: 0px solid #eeeeee;
+    border-bottom: 1px solid #ced5d8;
+}
+
+div.container.footer a {
+    color: #003145;
+    font-size: 13px;
+    /*font-weight: 100;*/
+    line-height: 15px;
+}
+
+div.container.footer a:hover {
+    /*color: #ee7600; /*#005580;*/
+    text-decoration: underline;
+}
+
+/*Alert highlight box used on livedata page, set text color*/
+.alert,
+.alert h4 {
+    color: #ee6000;
+    background-color: #eeeeee;
+    border-color: #dedede;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.alert-success {
+    /*color: #468847;*/
+    color: #ee6000;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.alert-news {
+    margin-top: 15px;
+    color: #000000;
+    background-color: #eeeeee;
+    border-color: #dedede;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.nero-unit {
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 40px;
+    color: #ee6000;
+    background-color: #003145;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.nero-unit h1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: inherit;
+}
+
+.nero-unit li {
+    line-height: 30px;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.img-rounded-padded {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/*Link page css*/
+
+.header-link-font {
+    margin: 0px 10px 20px 0px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.text-aker-org {
+    /*color: #ee6000;*/
+    color: #ff7f00;
+}
+
+/*Gallery image highlighting*/
+
+.gallery-img img {
+    border: 2px solid white;
+}
+
+.gallery-img:hover img {
+    border: 2px solid #ff8000;
+}
+
+.border-img img {
+    border: 1px solid #c8c8c8;
+}
